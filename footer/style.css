@@ -1,0 +1,224 @@
+nav{
+    background: linear-gradient(267deg, #00003294 0%, #19115494 95.50%);
+    width: 100vw;
+    height: 532px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+#logo{
+    width: 100px;
+}
+#gambitor{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.col1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.col2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text{
+    text-decoration: none;
+    
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.list li{
+    list-style: none; 
+}
+
+.outreach img{
+    width: 40px;
+    margin: 8px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    float: left;
+}
+
+.outreach{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.social-links{
+    /* border: 2px solid white; */
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab{
+    height: 10px;
+    width: 40px;
+}
+
+
+@media screen and (max-width:1400px) and (min-width:700px) {
+    #logo{
+        width: 60px;
+    }
+    #gambitor{
+        width: 120px;
+        margin-top: 20px;
+    }
+    .text{
+        text-decoration: none;
+        font-size: 12px;
+        padding: 6px 0px;
+    }
+    .col1 .col2{
+        width: 15%;
+    }
+    .fab{
+        height: 7px;
+        width: 30px;
+    }
+    .outreach img{
+        width: 25px;
+        margin: 4px;
+    }
+    .logos{
+        width:18%;
+        margin-left: 20px;
+    }
+    .follow{
+        margin-right: 20px;
+    }
+    nav{
+        height: 380px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:500px)  {
+    #logo{
+        width: 35px;
+        height: 35px;
+    }
+    #gambitor{
+        width: 70px;
+        
+        margin-top: 10px;
+    }
+    .text{
+        text-decoration: none;
+        font-size: 12px;
+        padding: 6px 0px;
+    }
+    .col1 .col2{
+        width: 9%;
+        padding-left: 10px;
+    }
+    .fab{
+        height: 4px;
+        width: 20px;
+    }
+    .outreach img{
+        width: 15px;
+        height: 45px;
+        margin: 3px;
+    }
+    .logos{
+        width:13%;
+        margin-left: 15px;
+    }
+    .follow{
+        margin-right: 20px;
+    }
+    nav{
+        height: 230px;
+    }
+    .list li a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    #outreach-text #IITR-text{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:500px)  {
+    #logo{
+        width: 40px;
+    }
+    #gambitor{
+        width: 70px;
+        margin-top: 13px;
+    }
+    .text{
+        text-decoration: none;
+        font-size: 12px;
+        padding: 3px 0px;
+    }
+    .col1 .col2{
+        width: 15%;
+    }
+    .fab{
+        height: 7px;
+        width: 18px;
+    }
+    .outreach img{
+        width: 25px;
+        margin: 4px;
+    }
+    .logos{
+        width:18%;
+        margin-left: 20px;
+    }
+    .follow{
+        margin-right: 20px;
+    }
+    nav{
+        height: 500px;
+        flex-direction: column;
+    }
+}
